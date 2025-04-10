@@ -25,7 +25,29 @@
     </button>
     <!-- Button to Open the Modal fin -->
 
+
+    
     <div class="container">
+      
+      <!-- inico cards -->
+    <div class="container mt-3">
+      <h2>Card Image Example</h2>
+      <p>Programacion IV</div> 
+      <div class="card" style="width:300px">
+        <img class="card-img-top" src="img/img.png" alt="Card image" style="width: 100%">
+        <div class="card-body">
+          <h4 class="card-title">Kevin Quiñonez</h4>
+          <p class="card-text">ING SISTEMAS</p>
+
+            <!-- Button to Open the Modal 3 start-->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal3">
+              Ver perfil
+            </button>
+            <!-- Button to Open the Modal fin -->
+
+        </div>
+      </div>
+    </div> 
 
       <h1>Hello, world en Bootstrap!</h1>
 
@@ -77,7 +99,7 @@
   </div>
 
 
-  <img src="img/descarga.jpeg" alt="" style="width: 100%;">
+  <img src="img/descarga.jpeg" alt="" style="width: 80%;" class="d-block mx-auto">
 
   <div class="container">
     
@@ -189,7 +211,37 @@
     </div>
   </div>
 
-  <!-- fin codigo ventana modal -->
+   <!-- inicio de la ventana modal 3 codigo -->
+
+    <!-- The Modal -->
+  <div class="modal" id="myModal3">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Informacion Kevin Quiñonez</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <p><b>Nombres: </b> Kevin</p>
+          <p><b>Apellidos:</b> Quiñonez</p>
+          <p><b>Direccion:</b> Carrera 18</p>
+          <p><b>Celular:</b> 3118354214</p>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- fin codigo ventana modal 3-->
 
   <footer style="background-color: black; color: white; text-align: center;">
     <p>Pagina creada por Kevin Quiñonez &copy 2025</p>
